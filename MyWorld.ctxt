@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ MyWorld\ (Natural\ Selection\ Simulation.)\r\n\ \r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ populate()
+comment2.text=\r\n\ The\ populate\ method\ populates\ the\ world\ with\ trees,\ and\ then\ asks\ the\ user\r\n\ how\ many\ girrafes\ to\ add,\ and\ what\ height\ to\ make\ the\ giraffes.\ After\ adding\r\n\ the\ group,\ they\ will\ be\ prompted\ to\ add\ another\ group\ or\ continue.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ The\ act\ method\ will\ gather\ all\ the\ giraffes\ in\ the\ world\ and\ put\ them\ in\ the\ List\ all.\r\n\ This\ list\ will\ be\ passed\ to\ the\ processHunger\ method.\ \ The\ displayCounts\ method\ will\r\n\ then\ be\ called\ to\ update\ the\ status\ of\ all\ people\ in\ the\ world.\r\n
+comment4.params=all
+comment4.target=void\ processHunger(java.util.List)
+comment4.text=\r\n\ This\ method\ is\ used\ to\ ensure\ that\ hunger\ is\ constantly\ updated\ for\ every\ animal,\ and\ it\ also\ ensures\r\n\ that\ animals\ who\ have\ reached\ a\ certain\ limit\ are\ removed\ from\ the\ world.\r\n
+comment5.params=all
+comment5.target=void\ processReproduction(java.util.List)
+comment5.text=\ The\ processReproduction\ method\ causes\ giraffes\ that\ intersect\r\n\ to\ have\ a\ probability\ of\ creating\ a\ new\ giraffe,\ with\ a\ height\ that\ is\ \r\n\ the\ average\ height\ of\ the\ two\ giraffes\r\n\ \r\n
+comment6.params=
+comment6.target=void\ displayCounts()
+comment6.text=\r\n\ Displays\ the\ counts\ of\ the\ alive\ and\ dead\ giraffes,\ and\ the\ average\ height\ of\ each\ group.\r\n
+numComments=7
